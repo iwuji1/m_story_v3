@@ -1,5 +1,5 @@
 <!-- src/components/DataFetcher.svelte -->
-<script>
+<!-- <script>
   import { onMount } from 'svelte';
   let data = null;
   let feels;
@@ -18,7 +18,4 @@
     }
   })
 
-</script>
-
-
-<p>{feels}</p>
+</script> -->

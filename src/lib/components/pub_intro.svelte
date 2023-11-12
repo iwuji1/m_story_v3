@@ -4,20 +4,20 @@
   let data = null;
   let questions;
 
-  onMount(async () => {
-    try {
-      const response = await fetch('/.netlify/functions/queryResults');
-      if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        const data = await response.json();
-        console.log(data);
-        questions = data;
-        people = data[0].length;
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  })
+  // onMount(async () => {
+  //   try {
+  //     const response = await fetch('/.netlify/functions/queryResults');
+  //     if (!response.ok) {
+  //         throw new Error('Network response was not ok');
+  //       }
+  //       const data = await response.json();
+  //       console.log(data);
+  //       questions = data;
+  //       people = data[0].length;
+  //   } catch (error) {
+  //     console.error('Error fetching data:', error);
+  //   }
+  // })
 
 </script>
 
